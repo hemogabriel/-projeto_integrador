@@ -1,6 +1,6 @@
 from tabulate import tabulate
 while True:
-    nome= input("Digite o nome do produto: ")
+    nome= input("Digite o nome do produto:  ")
     if not nome.isalpha():
         print("Digite somente letras!")
     else:
